@@ -1,0 +1,22 @@
+#,imagesize 889*803
+path: E:\deeplearning\dataset\NWPU_VHR_10\yolo # dataset root dir
+train: train_100_allclasses # train images
+val: test_allclasses # val images
+test: test_allclasses
+
+#in cross val experiment,modify include_class to the class desired in file base/update_labels
+# number of classes
+nc: 10
+# Classes
+names: ['airplane', 'ship', 'storage tank', 'baseball diamond', 'tennis court', 'basketball court', 'ground track field', 'harbor', 'bridge', 'vehicle']
+# names:
+#  0: airplane
+#  1: ship
+#  2: storage tank
+#  3: baseball diamond
+#  4: tennis court
+#  5: basketball court
+#  6: ground track field
+#  7: harbor
+#  8: bridge
+#  9: vehicle

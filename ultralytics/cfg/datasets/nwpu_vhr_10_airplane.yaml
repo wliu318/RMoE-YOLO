@@ -1,0 +1,11 @@
+#,imagesize 889*803
+path: E:\deeplearning\dataset\NWPU_VHR_10\yolo_airplane # dataset root dir
+train: train # train images
+val: test # val images
+test: test
+
+#in cross val experiment,modify include_class to the class desired in file base/update_labels
+# number of classes
+nc: 1
+# Classes
+names: ['airplane']

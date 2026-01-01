@@ -1,0 +1,11 @@
+#imagesize 1024*768
+path: E:\deeplearning\dataset\simd\yolo_airplane # dataset root dir
+train: train_5    #指定训练集图片存放的地址
+val: test_5
+test: test_5
+
+# number of classes
+nc: 1
+# class names
+names:  ['airplane']
+

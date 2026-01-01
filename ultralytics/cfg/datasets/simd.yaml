@@ -1,0 +1,26 @@
+#imagesize 1024*768
+path: E:\deeplearning\dataset\simd\yolo # dataset root dir
+train: train_100_allclasses    #指定训练集图片存放的地址
+val: test_allclasses
+test: test_allclasses
+
+# number of classes
+nc: 15
+# class names
+names: ['airliner', 'car', 'truck', 'van', 'longvehicle', 'bus', 'propeller', 'trainer', 'chartered' ,'fighter', 'other', 'stairtruck', 'pushbacktruck', 'helicopter','boat']
+#names:
+#  0: airplane
+#  1: car
+#  2: truck
+#  3: van
+#  4: longvehicle
+#  5: bus
+#  6: propeller
+#  7: trainer
+#  8: chartered
+#  9: fighter
+#  10: other
+#  11: stairtruck
+#  12: pushbacktruck
+#  13: helicopter
+#  14: boat
